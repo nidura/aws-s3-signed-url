@@ -1,10 +1,10 @@
 cloud:
   aws:
     credentials:
-      access-key:
-      secret-key:
+      access-key: AKIAXLQ5RTOCKHO45WAE
+      secret-key: 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
     region:
-      static: us-east-2
+      static: eu-west-2
     stack:
       auto: false
 
@@ -21,5 +21,3 @@ spring:
       max-file-size: 5MB
       max-request-size: 10MB
 
-server:
-  port: 9090
