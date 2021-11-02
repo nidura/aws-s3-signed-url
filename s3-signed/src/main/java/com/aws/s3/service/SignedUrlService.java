@@ -30,7 +30,7 @@ public class SignedUrlService {
     private String generateUrl(String fileName, HttpMethod httpMethod) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(new Date());
-//        calendar.add(Calendar.DATE, 1); // Generated URL will be valid for 24 hours
+//        calendar.add(Calendar.DATE, 1); // valid for 24 hours
 
 //        cal.set(Calendar.HOUR_OF_DAY,17);
 //        cal.set(Calendar.MINUTE,30);
